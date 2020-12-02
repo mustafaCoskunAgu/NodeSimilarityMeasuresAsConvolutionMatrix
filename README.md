@@ -5,12 +5,19 @@ This github page created as a source code for the paper, https://github.com/must
 Requirements
 
 Python 3.6
+
 pytorch
+
 networkx
+
 pandas
+
 scipy
+
 scikit-learn
+
 numpy
+
 ...
 
 Run 
@@ -25,7 +32,7 @@ Change
         'AA',
         
     ], default='HDI', help='The embedding learning method')
-For various convolution matrix option.
+For various convolution matrix option change HDI to RA, HPI,etc.
 
 
 For any question email me via mustafa.coskun@agu.edu.tr
