@@ -36,11 +36,15 @@ For various convolution matrix option change HDI to RA, HPI,etc.
 
 
 For any question email me via mustafa.coskun@agu.edu.tr
+
+
 Please change evaluation.py's 27th line with 
       #feature_vector = np.append(node_v_emb, node_u_emb)
         ####################### Perform Hadamard Product#################
         feature_vector = np.multiply(node_u_emb,node_v_emb)
 for better AUC evalution.
+
+
 
 Cite
 
